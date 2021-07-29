@@ -15,6 +15,7 @@ module GusBir1
     PARAM_SEARCH = 'pParametryWyszukiwania'
     PARAM_REGON = 'pRegon'
     PARAM_REPORT_NAME = 'pNazwaRaportu'
+    PARAM_REPORT_DATE = 'pDataRaportu'
     PARAM_PARAM_NAME = 'pNazwaParametru'
 
     SEARCH_TYPE_NIP  = 'dat:Nip'
@@ -41,5 +42,14 @@ module GusBir1
     NOT_FOUND = 4
     NO_ACCESS_TO_REPORT = 5
     SESSION_ERROR = 7
+
+    REPORT_TYPES = {
+      aktualizowane_jednostki: 'BIR11AktualizowaneJednostkiLokalne',
+      aktualizowane_podmioty: 'BIR11AktualizowanePodmiotyPrawneOrazDzialalnosciOsFizycznych',
+      nowe_jednostki: 'BIR11NoweJednostkiLokalne',
+      nowe_podmioty: 'BIR11NowePodmiotyPrawneOrazDzialalnosciOsFizycznych',
+      skreslone_jednostki: 'BIR11JednostkiLokalneSkreslone',
+      skreslone_podmioty: 'BIR11SkreslonePodmiotyPrawneOrazDzialalnosciOsFizycznych'
+    }.freeze
   end
 end

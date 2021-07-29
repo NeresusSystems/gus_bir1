@@ -48,7 +48,7 @@ module GusBir1
       end
 
       def report_info(search_result)
-        Report::TypeMapper.get_report_type(search_result)
+        GusBir1::Report::TypeMapper.get_report_type(search_result)
       end
 
       def street_address_from(data)
