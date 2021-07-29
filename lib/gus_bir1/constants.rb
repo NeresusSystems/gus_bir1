@@ -44,12 +44,12 @@ module GusBir1
     SESSION_ERROR = 7
 
     REPORT_TYPES = {
-      nowe_podmioty: 'BIR11NowePodmiotyPrawneOrazDzialalnosciOsFizycznych',
-      aktualizowane_podmioty: 'BIR11AktualizowanePodmiotyPrawneOrazDzialalnosciOsFizycznych',
-      skreslone_podmioty: 'BIR11SkreslonePodmiotyPrawneOrazDzialalnosciOsFizycznych',
-      nowe_jednostki: 'BIR11NoweJednostkiLokalne',
       aktualizowane_jednostki: 'BIR11AktualizowaneJednostkiLokalne',
-      jednostki_lokalne: 'BIR11JednostkiLokalneSkreslone'
+      aktualizowane_podmioty: 'BIR11AktualizowanePodmiotyPrawneOrazDzialalnosciOsFizycznych',
+      nowe_jednostki: 'BIR11NoweJednostkiLokalne',
+      nowe_podmioty: 'BIR11NowePodmiotyPrawneOrazDzialalnosciOsFizycznych',
+      skreslone_jednostki: 'BIR11JednostkiLokalneSkreslone',
+      skreslone_podmioty: 'BIR11SkreslonePodmiotyPrawneOrazDzialalnosciOsFizycznych'
     }.freeze
   end
 end
